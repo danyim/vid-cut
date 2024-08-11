@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { chunkArray } from "./utils";
+import { chunkArray } from "../utils";
 
 export const useTimecode = () => {
   const [timecodes, setTimecodes] = useState<number[]>([]);

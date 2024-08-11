@@ -1,8 +1,8 @@
 "use client";
 import { useRef } from "react";
-import { useVideoPlayback } from "./useVideoPlayback";
-import { useDragDrop } from "./useDragDrop";
-import { useTimecode } from "./useTimecode";
+import { useVideoPlayback } from "@/hooks/useVideoPlayback";
+import { useDragDrop } from "@/hooks/useDragDrop";
+import { useTimecode } from "@/hooks/useTimecode";
 
 const DEBUG = false;
 
